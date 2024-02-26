@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.3</Version>
+  <Author>maj</Author>
+ </Creator>
+ <Manufacturer>PURElight</Manufacturer>
+ <Model>Pixelbar Switch</Model>
+ <Type>LED Bar (Pixels)</Type>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="Dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Mode 5">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="9">No Function</Capability>
+  <Capability Min="10" Max="13">Static Color</Capability>
+  <Capability Min="14" Max="17">Internal Effect</Capability>
+  <Capability Min="18" Max="21">Internal Effect</Capability>
+  <Capability Min="22" Max="25">Internal Effect</Capability>
+  <Capability Min="26" Max="29">Internal Effect</Capability>
+  <Capability Min="30" Max="33">Internal Effect</Capability>
+  <Capability Min="34" Max="37">Internal Effect</Capability>
+  <Capability Min="38" Max="41">Internal Effect</Capability>
+  <Capability Min="42" Max="45">Internal Effect</Capability>
+  <Capability Min="46" Max="49">Internal Effect</Capability>
+  <Capability Min="50" Max="53">Internal Effect</Capability>
+  <Capability Min="54" Max="57">Internal Effect</Capability>
+  <Capability Min="58" Max="61">Internal Effect</Capability>
+  <Capability Min="62" Max="65">Internal Effect</Capability>
+  <Capability Min="66" Max="69">Internal Effect</Capability>
+  <Capability Min="70" Max="73">Internal Effect</Capability>
+  <Capability Min="74" Max="77">Internal Effect</Capability>
+  <Capability Min="78" Max="81">Internal Effect</Capability>
+  <Capability Min="82" Max="85">Internal Effect</Capability>
+  <Capability Min="86" Max="89">Internal Effect</Capability>
+  <Capability Min="90" Max="93">Internal Effect</Capability>
+  <Capability Min="94" Max="97">Internal Effect</Capability>
+  <Capability Min="98" Max="101">Internal Effect</Capability>
+  <Capability Min="102" Max="105">Internal Effect</Capability>
+  <Capability Min="106" Max="109">Internal Effect</Capability>
+  <Capability Min="110" Max="113">Internal Effect</Capability>
+  <Capability Min="114" Max="117">Internal Effect</Capability>
+  <Capability Min="118" Max="121">Internal Effect</Capability>
+  <Capability Min="122" Max="125">Internal Effect</Capability>
+  <Capability Min="126" Max="129">Internal Effect</Capability>
+  <Capability Min="130" Max="133">Internal Effect</Capability>
+  <Capability Min="134" Max="137">Internal Effect</Capability>
+  <Capability Min="138" Max="141">Internal Effect</Capability>
+  <Capability Min="142" Max="145">Internal Effect</Capability>
+  <Capability Min="146" Max="149">Internal Effect</Capability>
+  <Capability Min="150" Max="153">Internal Effect</Capability>
+  <Capability Min="154" Max="157">Internal Effect</Capability>
+  <Capability Min="158" Max="161">Internal Effect</Capability>
+  <Capability Min="162" Max="165">Internal Effect</Capability>
+  <Capability Min="166" Max="169">Internal Effect</Capability>
+  <Capability Min="170" Max="173">Internal Effect</Capability>
+  <Capability Min="174" Max="177">Internal Effect</Capability>
+  <Capability Min="178" Max="181">Internal Effect</Capability>
+  <Capability Min="182" Max="185">Internal Effect</Capability>
+  <Capability Min="186" Max="189">Internal Effect</Capability>
+  <Capability Min="190" Max="193">Internal Effect</Capability>
+  <Capability Min="194" Max="197">Internal Effect</Capability>
+  <Capability Min="198" Max="201">Internal Effect</Capability>
+  <Capability Min="202" Max="205">Internal Effect</Capability>
+  <Capability Min="206" Max="209">Internal Effect</Capability>
+  <Capability Min="210" Max="213">Internal Effect</Capability>
+  <Capability Min="214" Max="217">Internal Effect</Capability>
+  <Capability Min="218" Max="221">Internal Effect</Capability>
+  <Capability Min="222" Max="225">Internal Effect</Capability>
+  <Capability Min="226" Max="229">Internal Effect</Capability>
+  <Capability Min="230" Max="233">Auto Mode</Capability>
+  <Capability Min="234" Max="237">DMX Sound mode 1</Capability>
+  <Capability Min="238" Max="241">DMX Sound mode 2</Capability>
+  <Capability Min="242" Max="255">DMX Sound mode 3</Capability>
+ </Channel>
+ <Channel Name="Mode 6">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="9">No Function</Capability>
+  <Capability Min="10" Max="15">LED Segment 1 on</Capability>
+  <Capability Min="16" Max="21">LED Segment 2 on</Capability>
+  <Capability Min="22" Max="27">LED Segment 3 on</Capability>
+  <Capability Min="28" Max="33">LED Segment 4 on</Capability>
+  <Capability Min="34" Max="39">LED Segment 5 on</Capability>
+  <Capability Min="40" Max="45">LED Segment 6 on</Capability>
+  <Capability Min="46" Max="51">LED Segment 7 on</Capability>
+  <Capability Min="52" Max="57">LED Segment 8 on</Capability>
+  <Capability Min="58" Max="63">LED Segment 9 on</Capability>
+  <Capability Min="64" Max="69">LED Segment 10 on</Capability>
+  <Capability Min="70" Max="75">LED Segment 11 on</Capability>
+  <Capability Min="76" Max="81">LED Segment 12 on</Capability>
+  <Capability Min="82" Max="87">LED Segment 13 on</Capability>
+  <Capability Min="88" Max="93">LED Segment 14 on</Capability>
+  <Capability Min="94" Max="99">LED Segment 15 on</Capability>
+  <Capability Min="100" Max="105">LED Segment 16 on</Capability>
+  <Capability Min="106" Max="111">Pattern Effect 1</Capability>
+  <Capability Min="112" Max="117">Pattern Effect 2</Capability>
+  <Capability Min="118" Max="123">Pattern Effect 3</Capability>
+  <Capability Min="124" Max="129">Pattern Effect 4</Capability>
+  <Capability Min="130" Max="135">Pattern Effect 5</Capability>
+  <Capability Min="136" Max="141">Pattern Effect 6</Capability>
+  <Capability Min="142" Max="147">Pattern Effect 7</Capability>
+  <Capability Min="148" Max="153">Pattern Effect 8</Capability>
+  <Capability Min="154" Max="159">Pattern Effect 9</Capability>
+  <Capability Min="160" Max="165">Pattern Effect 10</Capability>
+  <Capability Min="166" Max="171">Pattern Effect 11</Capability>
+  <Capability Min="172" Max="177">Pattern Effect 12</Capability>
+  <Capability Min="178" Max="183">Pattern Effect 13</Capability>
+  <Capability Min="184" Max="189">Pattern Effect 14</Capability>
+  <Capability Min="190" Max="195">Pattern Effect 15</Capability>
+  <Capability Min="196" Max="201">Pattern Effect 16</Capability>
+  <Capability Min="202" Max="207">Pattern Effect 17</Capability>
+  <Capability Min="208" Max="213">Pattern Effect 18</Capability>
+  <Capability Min="214" Max="219">Pattern Effect 19</Capability>
+  <Capability Min="220" Max="225">Pattern Effect 20</Capability>
+  <Capability Min="226" Max="231">Pattern Effect 21</Capability>
+  <Capability Min="232" Max="237">Pattern Effect 22</Capability>
+  <Capability Min="238" Max="243">Pattern Effect 23</Capability>
+  <Capability Min="244" Max="255">Pattern Effect 24</Capability>
+ </Channel>
+ <Channel Name="Mode 7">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="9">No Function</Capability>
+  <Capability Min="10" Max="19">Static Color 1</Capability>
+  <Capability Min="20" Max="29">Static Color 2</Capability>
+  <Capability Min="30" Max="39">Static Color 3</Capability>
+  <Capability Min="40" Max="49">Static Color 4</Capability>
+  <Capability Min="50" Max="59">Static Color 5</Capability>
+  <Capability Min="60" Max="69">Static Color 6</Capability>
+  <Capability Min="70" Max="79">Static Color 7</Capability>
+  <Capability Min="80" Max="89">Static Color 8</Capability>
+  <Capability Min="90" Max="99">Static Color 9</Capability>
+  <Capability Min="100" Max="109">Static Color 10</Capability>
+  <Capability Min="110" Max="119">Static Color 11</Capability>
+  <Capability Min="120" Max="129">Static Color 12</Capability>
+  <Capability Min="130" Max="139">Static Color 13</Capability>
+  <Capability Min="140" Max="149">Static Color 14</Capability>
+  <Capability Min="150" Max="159">Static Color 15</Capability>
+  <Capability Min="160" Max="169">Static Color 16</Capability>
+  <Capability Min="170" Max="179">Static Color 17</Capability>
+  <Capability Min="180" Max="189">Static Color 18</Capability>
+  <Capability Min="190" Max="199">Static Color 19</Capability>
+  <Capability Min="200" Max="209">Static Color 20</Capability>
+  <Capability Min="210" Max="219">Static Color 21</Capability>
+  <Capability Min="220" Max="229">Static Color 22</Capability>
+  <Capability Min="230" Max="239">Static Color 23</Capability>
+  <Capability Min="240" Max="249">Static Color 24</Capability>
+  <Capability Min="250" Max="255">Static Color 25</Capability>
+ </Channel>
+ <Channel Name="Strobe Mode">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="9">No Function</Capability>
+  <Capability Min="10" Max="255">Strobe (Slow to Fast)</Capability>
+ </Channel>
+ <Channel Name="LED Dimmer Segment 1" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 2" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 3" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 4" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 5" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 6" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 7" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 8" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 9" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 10" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 11" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 12" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 13" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 14" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 15" Preset="IntensityDimmer"/>
+ <Channel Name="LED Dimmer Segment 16" Preset="IntensityDimmer"/>
+ <Channel Name="Red Dimmer 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Red Dimmer 16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green Dimmer 16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue Dimmer 16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Red Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Mode Name="3CH">
+  <Channel Number="0">Red</Channel>
+  <Channel Number="1">Green</Channel>
+  <Channel Number="2">Blue</Channel>
+ </Mode>
+ <Mode Name="5CH">
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Strobe</Channel>
+  <Channel Number="2">Red</Channel>
+  <Channel Number="3">Green</Channel>
+  <Channel Number="4">Blue</Channel>
+ </Mode>
+ <Mode Name="8CH">
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+  <Channel Number="4">Mode 5</Channel>
+  <Channel Number="5">Mode 6</Channel>
+  <Channel Number="6">Mode 7</Channel>
+  <Channel Number="7">Strobe Mode</Channel>
+ </Mode>
+ <Mode Name="24CH">
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+  <Channel Number="4">Mode 5</Channel>
+  <Channel Number="5">Mode 6</Channel>
+  <Channel Number="6">Mode 7</Channel>
+  <Channel Number="7">Strobe Mode</Channel>
+  <Channel Number="8">LED Dimmer Segment 1</Channel>
+  <Channel Number="9">LED Dimmer Segment 2</Channel>
+  <Channel Number="10">LED Dimmer Segment 3</Channel>
+  <Channel Number="11">LED Dimmer Segment 4</Channel>
+  <Channel Number="12">LED Dimmer Segment 5</Channel>
+  <Channel Number="13">LED Dimmer Segment 6</Channel>
+  <Channel Number="14">LED Dimmer Segment 7</Channel>
+  <Channel Number="15">LED Dimmer Segment 8</Channel>
+  <Channel Number="16">LED Dimmer Segment 9</Channel>
+  <Channel Number="17">LED Dimmer Segment 10</Channel>
+  <Channel Number="18">LED Dimmer Segment 11</Channel>
+  <Channel Number="19">LED Dimmer Segment 12</Channel>
+  <Channel Number="20">LED Dimmer Segment 13</Channel>
+  <Channel Number="21">LED Dimmer Segment 14</Channel>
+  <Channel Number="22">LED Dimmer Segment 15</Channel>
+  <Channel Number="23">LED Dimmer Segment 16</Channel>
+ </Mode>
+ <Mode Name="48CH">
+  <Channel Number="0">Red Dimmer 1</Channel>
+  <Channel Number="1">Green Dimmer 1</Channel>
+  <Channel Number="2">Blue Dimmer 1</Channel>
+  <Channel Number="3">Red Dimmer 2</Channel>
+  <Channel Number="4">Green Dimmer 2</Channel>
+  <Channel Number="5">Blue Dimmer 2</Channel>
+  <Channel Number="6">Red Dimmer 3</Channel>
+  <Channel Number="7">Green Dimmer 3</Channel>
+  <Channel Number="8">Blue Dimmer 3</Channel>
+  <Channel Number="9">Red Dimmer 4</Channel>
+  <Channel Number="10">Green Dimmer 4</Channel>
+  <Channel Number="11">Blue Dimmer 4</Channel>
+  <Channel Number="12">Red Dimmer 5</Channel>
+  <Channel Number="13">Green Dimmer 5</Channel>
+  <Channel Number="14">Blue Dimmer 5</Channel>
+  <Channel Number="15">Red Dimmer 6</Channel>
+  <Channel Number="16">Green Dimmer 6</Channel>
+  <Channel Number="17">Blue Dimmer 6</Channel>
+  <Channel Number="18">Red Dimmer 7</Channel>
+  <Channel Number="19">Green Dimmer 7</Channel>
+  <Channel Number="20">Blue Dimmer 7</Channel>
+  <Channel Number="21">Red Dimmer 8</Channel>
+  <Channel Number="22">Green Dimmer 8</Channel>
+  <Channel Number="23">Blue Dimmer 8</Channel>
+  <Channel Number="24">Red Dimmer 9</Channel>
+  <Channel Number="25">Green Dimmer 9</Channel>
+  <Channel Number="26">Blue Dimmer 9</Channel>
+  <Channel Number="27">Red Dimmer 10</Channel>
+  <Channel Number="28">Green Dimmer 10</Channel>
+  <Channel Number="29">Blue Dimmer 10</Channel>
+  <Channel Number="30">Red Dimmer 11</Channel>
+  <Channel Number="31">Green Dimmer 11</Channel>
+  <Channel Number="32">Blue Dimmer 11</Channel>
+  <Channel Number="33">Red Dimmer 12</Channel>
+  <Channel Number="34">Green Dimmer 12</Channel>
+  <Channel Number="35">Blue Dimmer 12</Channel>
+  <Channel Number="36">Red Dimmer 13</Channel>
+  <Channel Number="37">Green Dimmer 13</Channel>
+  <Channel Number="38">Blue Dimmer 13</Channel>
+  <Channel Number="39">Red Dimmer 14</Channel>
+  <Channel Number="40">Green Dimmer 14</Channel>
+  <Channel Number="41">Blue Dimmer 14</Channel>
+  <Channel Number="42">Red Dimmer 15</Channel>
+  <Channel Number="43">Green Dimmer 15</Channel>
+  <Channel Number="44">Blue Dimmer 15</Channel>
+  <Channel Number="45">Red Dimmer 16</Channel>
+  <Channel Number="46">Green Dimmer 16</Channel>
+  <Channel Number="47">Blue Dimmer 16</Channel>
+ </Mode>
+ <Mode Name="53CH">
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Red Dimmer 1</Channel>
+  <Channel Number="2">Green Dimmer 1</Channel>
+  <Channel Number="3">Blue Dimmer 1</Channel>
+  <Channel Number="4">Red Dimmer 2</Channel>
+  <Channel Number="5">Green Dimmer 2</Channel>
+  <Channel Number="6">Blue Dimmer 2</Channel>
+  <Channel Number="7">Red Dimmer 3</Channel>
+  <Channel Number="8">Green Dimmer 3</Channel>
+  <Channel Number="9">Blue Dimmer 3</Channel>
+  <Channel Number="10">Red Dimmer 4</Channel>
+  <Channel Number="11">Green Dimmer 4</Channel>
+  <Channel Number="12">Blue Dimmer 4</Channel>
+  <Channel Number="13">Red Dimmer 5</Channel>
+  <Channel Number="14">Green Dimmer 5</Channel>
+  <Channel Number="15">Blue Dimmer 5</Channel>
+  <Channel Number="16">Red Dimmer 6</Channel>
+  <Channel Number="17">Green Dimmer 6</Channel>
+  <Channel Number="18">Blue Dimmer 6</Channel>
+  <Channel Number="19">Red Dimmer 7</Channel>
+  <Channel Number="20">Green Dimmer 7</Channel>
+  <Channel Number="21">Blue Dimmer 7</Channel>
+  <Channel Number="22">Red Dimmer 8</Channel>
+  <Channel Number="23">Green Dimmer 8</Channel>
+  <Channel Number="24">Blue Dimmer 8</Channel>
+  <Channel Number="25">Red Dimmer 9</Channel>
+  <Channel Number="26">Green Dimmer 9</Channel>
+  <Channel Number="27">Blue Dimmer 9</Channel>
+  <Channel Number="28">Red Dimmer 10</Channel>
+  <Channel Number="29">Green Dimmer 10</Channel>
+  <Channel Number="30">Blue Dimmer 10</Channel>
+  <Channel Number="31">Red Dimmer 11</Channel>
+  <Channel Number="32">Green Dimmer 11</Channel>
+  <Channel Number="33">Blue Dimmer 11</Channel>
+  <Channel Number="34">Red Dimmer 12</Channel>
+  <Channel Number="35">Green Dimmer 12</Channel>
+  <Channel Number="36">Blue Dimmer 12</Channel>
+  <Channel Number="37">Red Dimmer 13</Channel>
+  <Channel Number="38">Green Dimmer 13</Channel>
+  <Channel Number="39">Blue Dimmer 13</Channel>
+  <Channel Number="40">Red Dimmer 14</Channel>
+  <Channel Number="41">Green Dimmer 14</Channel>
+  <Channel Number="42">Blue Dimmer 14</Channel>
+  <Channel Number="43">Red Dimmer 15</Channel>
+  <Channel Number="44">Green Dimmer 15</Channel>
+  <Channel Number="45">Blue Dimmer 15</Channel>
+  <Channel Number="46">Red Dimmer 16</Channel>
+  <Channel Number="47">Green Dimmer 16</Channel>
+  <Channel Number="48">Blue Dimmer 16</Channel>
+  <Channel Number="49">Mode 5</Channel>
+  <Channel Number="50">Mode 6</Channel>
+  <Channel Number="51">Mode 7</Channel>
+  <Channel Number="52">Strobe Mode</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="1.8" Width="1100" Height="100" Depth="100"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="60" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
